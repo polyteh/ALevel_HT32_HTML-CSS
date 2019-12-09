@@ -1,0 +1,22 @@
+
+ul.inner_list {
+  list-style-type: none;
+  }
+  li.spades:before
+  {
+    content:'\2660';
+  }
+  li.clubs:before
+  {
+    content:'\2663';
+  }
+  li.diamonds:before
+  {
+    content:'\2665';
+    color: red;
+  }
+  li.hearts:before
+  {
+    content:'\2666';
+    color: red;
+  }

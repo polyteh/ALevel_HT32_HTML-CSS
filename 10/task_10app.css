@@ -1,0 +1,27 @@
+.header {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.format {
+  color: #ff2525;
+  margin-top: 50px;
+
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: justify;
+  border-radius: 20px;
+  border: solid red;
+  padding: 50px 30px;
+  display: inline-block;
+  color: black;
+
+  width: 10em;
+}
+.no_scrollable {
+  position: fixed;
+  font-weight: bold;
+}

@@ -1,0 +1,8 @@
+
+ul.outer_list {
+list-style-type: disc;
+}
+
+ul.inner_list {
+  list-style-type: circle;
+  }

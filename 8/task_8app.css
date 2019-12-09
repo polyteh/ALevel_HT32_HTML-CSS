@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Caveat&subset=cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light&subset=cyrillic);
+ul.inner_list {
+  list-style-type: disc;
+}
+li.first_font {
+  font-family: Caveat;
+  font-size: large;
+}
+li.second_font {
+  font-family: Pacifico;
+  font-size: larger;
+}
+li.third_font {
+  font-family: Vivaldi;
+  font-size: xx-large;
+}
+li.forth_font {
+  font-family: Magneto;
+  font-size: xx-large;
+}
+li.fifth_font {
+  font-family: Shadows Into Light;
+  font-size: xx-large;
+}
+
+@font-face {
+  font-family: "Vivaldi";
+  src: url("../fonts/VIVALDII.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Magneto";
+  src: url("../fonts/MAGNETOB.TTF") format("truetype");
+}
