@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container_column {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.item2-1 {
+  width: 10vh;
+  height: 5vh;
+}
+.item2-2 {
+  width: 10vh;
+  height: 10vh;
+}
+.item2-3 {
+  width: 10vh;
+  height: 15vh;
+}
+.item2-4 {
+  width: 10vh;
+  height: 20vh;
+}
+.item4-2 {
+  width: 20vh;
+  height: 10vh;
+}
+
+.img_blue {
+  background: blue;
+}
+.img_violet {
+  background: violet;
+}
+.img_cyan {
+  background: cyan;
+}
+.img_darkgolden {
+  background: darkgoldenrod;
+}
+.img_green {
+  background: green;
+}
+.img_steelblue {
+  background-color: steelblue;
+}
+.img_red {
+  background-color: red;
+}
+.border_block {
+  border: 5px solid black;
+}

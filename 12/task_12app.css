@@ -1,0 +1,71 @@
+
+* {
+  box-sizing:border-box;
+ }
+.wrap {
+  background: black;
+  height: 100vh;/*чем нужно заменить эту строку?*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container_column
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+}
+
+.elem_1-1{
+  height: 10vh;
+  width: 10vh;
+}
+.elem_1-2{
+  height: 10vh;
+  width: 20vh;
+}
+.elem_2-1{
+  height: 20vh;
+  width: 10vh;
+}
+.elem_2-2{
+  height: 20vh;
+  width: 20vh;
+}
+
+.img_violet {
+  background: violet;
+  padding: 3px;
+ 
+}
+.img_cyan {
+  background: cyan;
+  padding: 3px;
+  
+}
+.img_darkgolden{
+  background: darkgoldenrod;
+}
+.img_green{
+  background: green;
+}
+.img_steelblue{
+  background-color: steelblue;
+}
+.img_red{
+  background-color: red;
+}
+.img_blue{
+  background-color: blue;
+}
+.border_block{
+  border: 5px solid black;
+}
+
